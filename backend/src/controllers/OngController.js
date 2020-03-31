@@ -13,7 +13,7 @@ module.exports = {
     
         //  const params = request.query;   // Usado com Parâmetro Query
         //  const params = request.params;  // Usado com Parâmetro Route
-        //  const body   = request.body;     // Usado com Parâmetro Body
+        //  const body   = request.body;    // Usado com Parâmetro Body
         
             const { name, email, whatsapp, city, uf } = request.body;
     
